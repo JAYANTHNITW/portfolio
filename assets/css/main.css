@@ -2156,7 +2156,7 @@ button,
       -moz-flex-direction: column-reverse;
       -webkit-flex-direction: column-reverse;
       -ms-flex-direction: column-reverse;
-      flex-direction: column-reverse; }
+      flex-direction: column; }
       #banner h1 br {
         display: none; }
       #banner .content {
@@ -2169,20 +2169,13 @@ button,
         -ms-flex-shrink: 0;
         flex-shrink: 0;
         width: 100%; }
-      #banner .image {
-        -moz-flex-grow: 0;
-        -webkit-flex-grow: 0;
-        -ms-flex-grow: 0;
-        flex-grow: 0;
-        -moz-flex-shrink: 0;
-        -webkit-flex-shrink: 0;
-        -ms-flex-shrink: 0;
-        flex-shrink: 0;
-        margin: 0 0 4em 0;
-        height: 25em;
-        max-height: 50vh;
-        min-height: 18em;
-        width: 100%; } }
+        #banner .image {
+          margin: 2em 0; /* Add some spacing around the image*/
+          width: 100%;   /* Image takes full available width */
+          height: auto;  /* Let height adjust proportionally to width */
+          max-height: 50vh; /* A flexible max-height */
+        }
+      }
   @media screen and (orientation: portrait) and (max-width: 480px) {
     #banner .image {
       max-height: 35vh; } }
@@ -2356,6 +2349,6 @@ button,
   }
 
   .video-container {
-    max-width: 95%; /* Allow some margin on smaller screens */
+    max-width: auto; /* Allow some margin on smaller screens */
   }
 }
