@@ -2097,7 +2097,7 @@ button,
     text-align: center; }
   @media screen and (max-width: 1680px) {
     #header {
-      padding-top: 5em; } }
+      padding-top: 6em; } }
   @media screen and (max-width: 736px) {
     #header {
       padding-top: 4.5em; }
@@ -2105,11 +2105,12 @@ button,
         font-size: 1.0em;
         margin: 0; }
       #header .icons {
-        height: 5em;
-        line-height: 5em;
+        height: 4em;
+        line-height: 4em;
         position: absolute;
         right: 10%; 
-        font-size: large;
+        font-size: medium;
+        text-align: left;
         top: 0; } }
 
 /* Banner */
