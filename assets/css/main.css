@@ -2347,46 +2347,15 @@ button,
   color: rgb(55, 1, 252);
 }
 
-/* Your existing main.css file */
 /* ... your existing styles ... */
 
-/* Media Queries for Responsiveness */
-@media (max-width: 1024px) { /* Adjust breakpoints as needed */
-  /* Styles for tablets and smaller screens */
-  #banner .content h1 {
-    font-size: 2.5em; /* Adjust heading size for smaller screens */  
+@media (max-width: 768px) { /* Adjust breakpoint as needed */
+  #banner .image img {  
+    max-width: 100%; 
+    height: auto;     
   }
 
-  .skills ul li { /* Make skill items stack on smaller screens */
-    display: block;
-    margin-bottom: 10px; 
-  }
-}
-
-@media (max-width: 768px) { 
-  /* Styles for  phones in landscape mode */
-  .inner { 
-    padding: 10px; /* Reduce padding for smaller screens */
-  }
-
-  #banner .content h2 {
-    font-size: 1.8em; /* Adjust heading size */
-  }
-}
-
-@media (max-width: 480px) { 
-  /* Styles for phones in portrait mode */
-  #sidebar {
-    display: none; /* Consider hiding the sidebar on very small screens */
-  }
-
-  #main {
-    width: 100%; /* Allow main content to take full width */
-  }
-
-  .image.object {
-    width: 100%; /* Make image responsive to its container */
-    max-width: 300px; /* Set a max-width to prevent image overflow */
-    height: auto; /* Maintain aspect ratio */
+  .video-container {
+    max-width: 95%; /* Allow some margin on smaller screens */
   }
 }
