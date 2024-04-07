@@ -1903,7 +1903,7 @@ button,
     -webkit-transform: scaleX(-1);
     -ms-transform: scaleX(-1);
     transform: scaleX(-1);
-    color: #7f888f;
+    color: #ff0202;
     content: '\f002';
     cursor: default;
     display: block;
@@ -2142,8 +2142,10 @@ button,
     -ms-flex-shrink: 0;
     flex-shrink: 0;
     display: block;
-    margin: 0 0 0em 5em;
-    width: 50%; }
+  
+    margin:0 0 0em 5em;
+    width: 40%;
+    }
     #banner .image img {
       height: auto;  /* Allow height to adjust based on content */
       max-width: 100%; /* Let the image shrink if needed */
@@ -2168,12 +2170,12 @@ button,
         -webkit-flex-shrink: 0;
         -ms-flex-shrink: 0;
         flex-shrink: 0;
-        width: 100%; }
+        max-width: 100%; }
         #banner .image {
           margin: 2em 0; /* Add some spacing around the image*/
           width: 100%;   /* Image takes full available width */
           height: auto;  /* Let height adjust proportionally to width */
-          max-height: 50vh; /* A flexible max-height */
+          max-height: 70vh; /* A flexible max-height */
         }
       }
   @media screen and (orientation: portrait) and (max-width: 480px) {
@@ -2351,4 +2353,15 @@ button,
   .video-container {
     max-width: auto; /* Allow some margin on smaller screens */
   }
+}
+
+
+/* ... your existing styles ... */
+
+#menu ul li a {  /* Targets links within the menu */
+  color: blue;  /* Sets the default link color to blue */
+}
+
+#menu ul li a:hover { /* Style for when the mouse hovers over a link */
+  color: darkblue;  /* You can change this color if you like */
 }
