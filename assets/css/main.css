@@ -2172,7 +2172,7 @@ button,
         flex-shrink: 0;
         max-width: 100%; }
         #banner .image {
-          margin: 2em 0; /* Add some spacing around the image*/
+          margin: -4em 0em 0em 0em; /* Add some spacing around the image*/
           width: 100%;   /* Image takes full available width */
           height: auto;  /* Let height adjust proportionally to width */
           max-height: 70vh; /* A flexible max-height */
