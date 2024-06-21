@@ -78,7 +78,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  background: #ffffff; }
+  background: #f3f8f800; }
   body.is-preload *, body.is-preload *:before, body.is-preload *:after, body.is-resizing *, body.is-resizing *:before, body.is-resizing *:after {
     -moz-animation: none !important;
     -webkit-animation: none !important;
@@ -91,7 +91,7 @@ body {
 
 /* Type */
 body, input, select, textarea {
-  color: #0c0c0c;
+  color: #101010fa;
   font-family: "Open Sans", sans-serif;
   font-size: 13pt;
   font-weight: 400;
@@ -116,12 +116,12 @@ a {
   text-decoration: none; }
   a:hover {
     border-bottom-color: #f56a6a;
-    color: #f56a6a !important; }
+    color: #0e9729 !important; }
     a:hover strong {
       color: inherit; }
 
 strong, b {
-  color: #3d4449;
+  color: #040404;
   font-weight: 600; }
 
 em, i {
@@ -2173,7 +2173,7 @@ button,
         flex-shrink: 0;
         max-width: 100%; }
         #banner .image {
-          margin: -4em 0em 0em 0em; /* Add some spacing around the image*/
+          margin: -0em 0em 0em 0em; /* Add some spacing around the image*/
           width: 100%;   /* Image takes full available width */
           height: auto;  /* Let height adjust proportionally to width */
           max-height: 70vh; /* A flexible max-height */
