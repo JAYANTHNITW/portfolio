@@ -1881,7 +1881,7 @@ button,
     #main > .inner {
       padding: 0 2em 0.1em 2em ; }
       #main > .inner > section {
-        padding: 3em 0 1em 0 ; } }
+        padding: 3em 0 1em 0 ; } }  
 
 /* Sidebar */
 #search form {
@@ -2324,7 +2324,7 @@ button,
   }
   
   .button {
-    display: block; /* Makes the button act like a block element */
+    display: inline-block; /* Makes the button act like a block element */
     margin: 0 auto; /* Centers the button within its container */
   } 
   
